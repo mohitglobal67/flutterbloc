@@ -1,12 +1,10 @@
 import 'package:bloc_flutter/bloc/bloc/login_bloc.dart';
 import 'package:bloc_flutter/main.dart';
-import 'package:bloc_flutter/repository/auth/login_repository.dart';
 import 'package:bloc_flutter/view/login/email_input_widget.dart';
 import 'package:bloc_flutter/view/login/password_input_widget.dart';
 import 'package:bloc_flutter/view/login/submit_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:get_it/get_it.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});

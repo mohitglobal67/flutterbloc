@@ -12,7 +12,7 @@ class NetworkServisesApi implements BaseApiServices {
     dynamic responseJson;
     try {
       final response =
-          await http.get(Uri.parse("")).timeout(const Duration(seconds: 50));
+          await http.get(Uri.parse(url)).timeout(const Duration(seconds: 50));
 
       if (response.statusCode == 200) {
         responseJson = returnResponse(response);

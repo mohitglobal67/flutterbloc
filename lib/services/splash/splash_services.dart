@@ -11,7 +11,7 @@ class SplashServices {
         Timer(
           const Duration(seconds: 2),
           () => Navigator.pushNamedAndRemoveUntil(
-              context, RoutesName.homeScreen, (route) => false),
+              context, RoutesName.moviesscreen, (route) => false),
         );
       } else {
         Timer(

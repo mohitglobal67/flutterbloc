@@ -1,4 +1,5 @@
 import 'package:bloc_flutter/config/routes/routes_name.dart';
+import 'package:bloc_flutter/view/movies/movies.dart';
 import 'package:flutter/material.dart';
 import '../../view/view.dart';
 
@@ -15,6 +16,10 @@ class Routes {
 
       case RoutesName.homeScreen:
         return MaterialPageRoute(builder: (BuildContext context) => HomePage());
+
+      case RoutesName.moviesscreen:
+        return MaterialPageRoute(
+            builder: (BuildContext context) => const MoviesScreen());
 
       default:
         return MaterialPageRoute(builder: (_) {
